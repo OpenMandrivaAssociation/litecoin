@@ -1,0 +1,13 @@
+diff --git a/src/db.h b/src/db.h
+index ea440c4..5c60f96 100644
+--- a/src/db.h
++++ b/src/db.h
+@@ -11,7 +11,7 @@
+ #include <string>
+ #include <vector>
+ 
+-#include <db_cxx.h>
++#include <db60/db_cxx.h>
+ 
+ class CAddress;
+ class CAddrMan;
