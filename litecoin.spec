@@ -7,7 +7,7 @@ Group:		Databases
 Source0:	https://github.com/litecoin-project/litecoin/archive/v%{version}.tar.gz
 Patch0:		berkdb60-litecoin.patch
 
-URL:		http://www.litecoin.org
+URL:		https://www.litecoin.org
 BuildRequires:	boost-devel
 BuildRequires:	pkgconfig(QtCore)
 BuildRequires:	db-devel
